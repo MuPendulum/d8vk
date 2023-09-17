@@ -776,7 +776,7 @@ namespace dxvk {
       }
 
     unhandled:
-      Logger::debug(str::format("CopyRects: Hit unhandled case from src pool ", srcDesc.Pool, " to dst pool ", dstDesc.Pool));
+      Logger::warn(str::format("CopyRects: Hit unhandled case from src pool ", srcDesc.Pool, " to dst pool ", dstDesc.Pool));
       return D3DERR_INVALIDCALL;
     
     done:
