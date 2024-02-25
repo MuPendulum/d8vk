@@ -923,6 +923,15 @@ namespace dxvk {
     { R"(\\Soldiers\.exe$)", {{
       { "d3d9.memoryTrackTest",             "True" },
     }} },
+    /* Cossacks II: Napoleonic Wars &             *
+     * Battle for Europe                          */
+    { R"(\\Cossacks II.*\\engine\.exe$)", {{
+      { "d3d9.maxFrameRate",                  "60" },
+    }} },
+    /* Alexander                                  */
+    { R"(\\Alexander\\Data\\engine\.exe$)", {{
+      { "d3d9.maxFrameRate",                  "60" },
+    }} },
   }};
 
 
